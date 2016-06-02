@@ -1,0 +1,16 @@
+body{
+    background: black url("images/back3.jpg") no-repeat fixed bottom left;
+
+}
+h1{
+    color: aliceblue;
+    font-family: Arial;
+    font-size: 16px;
+    text-align: center;
+}
+p{
+    color: aliceblue;
+    font-family: Arial;
+    font-size: 14px;
+    text-align: center;
+}
