@@ -1,0 +1,40 @@
+assafm04
+036539096
+Assaf Mor
+
+==============================
+=  README for ex4: Nim Game  =
+==============================
+
+usage:
+python3.3 nim.py
+enter 1 to play against the computer or 2 to play against another human
+the enter a valid number of row, afterwards enter a valid number of asterisk
+to remove from that row
+
+
+==================
+=  Description:  =
+==================
+
+nim.py - The game is between two players and played with heaps of any number of
+objects. The two players alternate taking any number of objects from any single
+one of the heaps. To be the winner is to be the last to take an object.
+in this game there are two options: human vs. computer, or human vs. human,
+in any case, if another round is wished to play after a winner is declared,
+the winner will be the one to begin the next round
+
+
+=============================
+=  List of submitted files: =
+=============================
+
+README		This file
+nim.py
+
+======================
+=  Special Comments  =
+======================
+
+I tried to use functions in order to less the code repetition, hope i was
+successful

@@ -1,0 +1,68 @@
+1.
+mkdir - this command followed by a new name 
+chosebn by the user will create a new folder 
+inside the current folder.
+rmdir - this command will remove the empty
+folder chosen by the user.
+cd - this command is used in order to change the
+directory you currently stand on followed by
+the name of the directory you wish to stand on.
+or to home directory if left blank.
+cd ~ - this command will send you to your default
+home directory under your user.
+cd ~/ - this command will send you to your desired
+directory under your home directory instantly.
+
+2.
+'.'(dot) - refers to the working directory which means
+that if i want to change to the working directory 
+i can simply press cd ./#name#
+'..'(dot dot) - and if i rather relatively 
+to a directory i can simply press cd .. and go up one
+its just a matter of convenience whether to use
+cd and an absolute/relative pathname.
+
+3.
+absolute path is defined as specifying the 
+location of a file or directory from the 
+root directory where as Relative path is 
+defined as path related to the present 
+working directory. lets say you are in the 'safe'
+directory and want to move to 'ex1' directory
+that you would use the relative path concept
+by pressing cd safe/ex1.
+
+4.
+those two characters are known as wildcards
+just like in regex.
+because the shell handles mostly files
+there are a few commands to help manipulate the files
+in an easier way.
+'*' matches any number of characters.
+in 'ls' - for example *.rar matches any file with the ending .rar
+in 'cp' - for example *.rar copy any file with the ending .rar
+'?' matches any single character.
+in 'ls' - for example ?.rar matches a.rar but not ab.rar.
+in 'cp' - for example ?.rar copy a.rar but not ab.rar.
+
+5.
+the '&' means run the program in the background
+and continue to accept more commands.
+once you forgot to write it you can suspend it by 'ctrl-z'
+and if you wish to return to it press 'bg' to begin again
+
+6. 
+by pressin '-l' you can see the permissions of it as well
+as other information on it
+
+7.
+diff - display the differences between two files. for example 
+difference between two text files
+wc - print the number of bytes, words, and lines in files.
+cal - displays a simple calendar, the current month is displayed
+if not chosen otherwise
+cat - join files and print them on. for example join two text files
+and print the output.
+grep - print lines matching a pattern chosen by the user
+much like regex
+

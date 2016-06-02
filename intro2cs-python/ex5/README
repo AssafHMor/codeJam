@@ -1,0 +1,49 @@
+assafm04
+036539096
+Assaf Mor
+
+================================
+=  README for ex5: Perceptron  =
+================================
+
+usage: only functions , no main
+
+==================
+=  Description:  =
+==================
+
+this file contains several methods which checks:
+if a given set of vectors and labels have a classifier
+if for a given set of vectors, labels, classifier and bias exists errors
+turn a list to a square matrix
+
+
+=============================
+=  List of submitted files: =
+=============================
+
+README		This file
+perceptron.py
+
+======================
+=  Special Comments  =
+======================
+
+answers
+5.a - i did not succeed in the test data with the classifier i got from the
+train data i found a few errors. i guess its because i got just one
+classifier from the train data and there are
+multiple possible classifiers for one case and if the test data was more
+similar the the train data i might have succeeded with it, the fact is that
+if we get multiple classifiers on the train data, lets say the two 'end'
+classifiers and get one in the "middle" of those two we might just find a
+good classifier for the test data as well as the train data.
+
+c part(bonus) - we cannot separate this data because we get a linear
+classifier and the data is separated by a non-linear classifier. if we want to
+change the code so it will find several linear separators. in this case lets
+say it will find a classifier where all the -1
+are above him one the all the -1 are blow him another one where they are all
+to the left and one to the right, this way we can restrict the -1 labels only
+inside the borders we created. this way we can say we found a non-linear
+classifier which is made out of several linear classifiers

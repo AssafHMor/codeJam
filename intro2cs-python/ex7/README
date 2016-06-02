@@ -1,0 +1,40 @@
+assafm04
+036539096
+Assaf Mor
+
+===============================
+=  README for ex7a: morphing  =
+===============================
+
+usage:
+python3 gui.py<image_source><image_target><num_frames><out_dir><max_x><max_y>
+image_source is the directory of the source image
+image_target is the directory of the target image
+num_frames is the number of morphing images the user wishes to perform
+out_dir is the directory to place the morphing frames
+max_x is the width size of images
+max_y is the height size of the images
+
+==================
+=  Description:  =
+==================
+
+this program morph 2 images. from the source image to a target image
+the user must declare how many intermediate images between the source
+and target the program will create. at the end the program creates intermediate
+images in a new folder at the "out_dir" these images are the morphing images
+between the source and target image.
+the gui is using the methods in ex7.py file.
+
+=============================
+=  List of submitted files: =
+=============================
+
+README		This file
+ex7.py      a file containing methods used by the gui
+
+
+======================
+=  Special Comments  =
+======================
+

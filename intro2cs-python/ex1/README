@@ -1,0 +1,35 @@
+assafm04
+036539096
+Assaf Mor
+
+=============================
+=  README for ex1: HelloTurtle  =
+=============================
+
+usage:
+python3.3 HelloTurtle.py
+python3.3 Hello.py
+
+==================
+=  Description:  =
+==================
+
+Hello - print "Hello World!" to the user
+HelloTurtle - a simple program which prints to the screen "Hello Turtle" in
+green inside an
+orange circle inside a red rectangle inside a blue rectangle.
+
+
+=============================
+=  List of submitted files: =
+=============================
+
+README		This file
+Hello.py prints hello world
+HelloTurtle.py contains the printing program
+ex1.txt - contains the answers
+
+
+======================
+=  Special Comments  =
+======================

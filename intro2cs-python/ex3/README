@@ -1,0 +1,102 @@
+assafm04
+036539096
+Assaf Mor
+
+=============================
+=  README for ex3: Loops  =
+=============================
+
+usage:
+python3.3 findLargest.py
+enter the number of riders, then enter size of hats one by one all non-negative
+
+python3.3 findSecondSmallest.py
+enter 10 non-negative different numbers
+
+python3.3 totalWeight.py
+enter numbers to add up and when done enter "-1"
+
+python3.3 twoDimensionalSeek.py
+enter "right" or "left" for direction and then a value, when done enter "end"
+
+python3.3 ithElementValue.py
+enter the ith number of fibonacci series you wish to calculate
+
+python3.3 decomposition.py
+enter a non-negative hole number
+
+python3.3 binaryToDecimal.py
+enter a binary number
+
+python3.3 decimalToBinary.py
+enter a non-negative hole number
+
+==================
+=  Description:  =
+==================
+
+findLargest.py - the user chooses from how many number, the program will find
+the largest number, the user has entered.
+
+findSecondSmallest.py - out of ten numbers the user enters it will find the
+second smallest.
+
+totalWeight.py - will display a sum of numbers the user enters if the sum
+does not exceeds 100 and it wont approve negative numbers it will display the
+sum once the number "-1" is entered.
+
+twoDimensionalSeek.py - will calculate the straight line from starting point
+to ending point. it will display how much is needed to go and to which
+direction. the user enters the route with only "left" and "right" directions
+and the length of each move.
+
+ithElementValue.py - the user will choose which fibonacci number it will
+calculate by choosing its position in the series.
+
+decomposition.py - which ever number the user chooses it will decompose the
+number to its digits.
+
+binaryToDecimal.py - will convert a binary to its decimal representation.
+
+decimalToBinary.py - will convert a decimal to its binary representation.
+
+=============================
+=  List of submitted files: =
+=============================
+
+README		This file
+findLargest.py
+findSecondSmallest.py
+totalWeight.py
+twoDimensionalSeek.py
+ithElementValue.py
+decomposition.py
+binaryToDecimal.py
+decimalToBinary.py
+
+
+======================
+=  Special Comments  =
+======================
+
+answers to questions:
+1 & 2 :
+there is no major difference, the difference is what we divide by and
+what we multiply by, and you just need to switch between the two every time.
+this is why the answer to question 2 is:
+binaryToDecimal - here we divide by 10 and multiply by 2
+decimalToBinary - here we divide by 2 and multiply by 10
+the thing is that we just need to reverse the actions we did
+
+3 :
+a. if we want to change the code to different bases of converting
+all we need is to do the same changes I suggested in question 2
+we need to choose two bases and just use the right multiplying and dividing
+for example: if we wish to convert from 10 base to 4 base we must make sure
+we have only the numbers: 0,1,2,3 which represent the "4 base"
+b. I guess there must be an abstract class we can write which handles problems
+which are more complex than converting two bases under 10. for example
+converting to base 21 must be different from converting to base 8 but we can
+always make cases: are we converting bases under 10? that's one way otherwise
+we use other way but the principles are the same always we just divide and
+multiply with the bases we choose

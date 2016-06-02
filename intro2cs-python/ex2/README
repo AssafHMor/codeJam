@@ -1,0 +1,38 @@
+assafm04
+036539096
+Assaf Mor
+
+=============================
+=  README for ex3: Loops  =
+=============================
+
+usage:
+python3.3 findLargest.py
+enter the a number 1 for rectangle, 2 for circle, 3 for triangle
+then enter either width and height for the rectangle, radius for the circle or
+sizes of three edges of the triangle.
+python3.3 ex2b.py
+enter two integers and a operation (+,-,*,/,%)
+
+==================
+=  Description:  =
+==================
+
+ex2a - a simple program which calculates and prints to the user the area and
+perimeter of 3 different shapes - rectangle, circle or triangle
+ex2b - a simple calculator that runs operation on two numbers and prints the
+solution to the user/ the operations may be only +,-,*,/ or %.
+
+
+=============================
+=  List of submitted files: =
+=============================
+
+README		This file
+ex2a.py - contains the area and perimeter calculator
+ex2b.py - contains the simple calculator
+
+
+======================
+=  Special Comments  =
+======================

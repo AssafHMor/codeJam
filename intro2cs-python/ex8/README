@@ -1,0 +1,43 @@
+assafm04
+036539096
+Assaf Mor
+
+===============================
+=  README for ex8: asteroids  =
+===============================
+
+usage:
+python3 asteroidsMain.py
+the "right" key to turn the ship right
+the "left" key to turn the ship left
+the "up" key to accelerate the ship
+the "space" key to fire torpedo
+the "q" key or the "quit"/"X" button to exit the game
+
+==================
+=  Description:  =
+==================
+
+this an arcade game of asteroids where the user has 3 lives and he needs to
+shoot the asteroids and blow them in order to win.
+if the user shoots an asteroid it breaks into two smaller asteroids, there are
+3 sizes of asteroids in the game: large, medium and small
+once all the asteroids are destroyed the user wins.
+for blowing a large one he gets 20 point, for medium 50 point and for small 100
+points.
+if an asteroid collides with the ship it is blown, the user loses his ship and
+no point are granted. if the user loses all his ships the game ends
+
+=============================
+=  List of submitted files: =
+=============================
+
+README - This file
+asteroidsMain.py - a file containing methods used by the game and the main loop
+
+======================
+=  Special Comments  =
+======================
+
+i choose to turn the ship to the right when "right" key is pressed and the
+same with left, in the game orders it was the opposite and i chose to change it

@@ -1,0 +1,63 @@
+assafm04
+036539096
+Assaf Mor
+
+================================
+=  README for ex5: Perceptron  =
+================================
+
+usage:
+palindrome.py contains only functions
+
+balanced_brackets.py contains only functions
+
+python3.3 y_tree.py
+enter size of bark (initial size of step)
+
+==================
+=  Description:  =
+==================
+
+palindrome:
+this file contains 2 methods:
+1. is_palindrome_1 - check if a given sting is a palindrome recursively
+2. is_palindrome_2 - checks if between two given indexes a given string is a
+palindrome
+
+balanced_brackets:
+this file contains 3 main methods:
+1: is_balanced - returns true if the parentheses are balanced in a given
+string, otherwise returns false
+2: violated_balanced - if the parentheses are un-balanced: it returns the
+length of the string if its possible to add parentheses so it may become a
+balanced string, or the index of the unbalancing if there cannot be an adding
+such that the string will be balanced.
+if the string is balanced it returns -1
+3. match brackets - if the string is balanced parentheses-wise, it
+calculates the distance between two matching parentheses and returns a list,
+where the distance is displayed at the index of each matching parentheses
+if the string is unbalanced it returns an empty list.
+
+y_tree:
+this file contains a recursive method to draw a "Y" tree using the turtle library
+its initial starting length is 200 but the user may change it it at each junction
+it turns 30 degrees to each side relative to its previous step
+
+
+=============================
+=  List of submitted files: =
+=============================
+
+README		This file
+palindrome.py
+balanced_brackets.py
+test_strings_2a.py
+test_strings_2b.py
+test_strings_2c.py
+
+======================
+=  Special Comments  =
+======================
+
+a 3 text files are added, which contain the testing strings on all
+balanced_brackets methods
